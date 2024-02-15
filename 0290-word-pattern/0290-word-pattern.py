@@ -14,17 +14,17 @@ class Solution:
 #         return pattern_list == str_list
     
         # Approach 2
-        connections = dict()
+        connections = dict() # connection dictionary maps words from s to the characters from pattern
         words = s.split()
         
-        if len(pattern) != len(words):
+        if len(pattern) != len(words):  # If length of pattern and s is not equal
             return False
         
-        if len(set(pattern)) != len(set(words)):
+        if len(set(pattern)) != len(set(words)): # If number of unique elements in pattern and s is not equal
             return False
         
         
-        for i in range(len(words)):
+        for i in range(len(words)): # If above two condions fail to execute
             if words[i] in connections:
                 if connections[words[i]] != pattern[i]:
                     return False
