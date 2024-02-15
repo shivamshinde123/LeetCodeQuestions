@@ -17,5 +17,5 @@ class Solution:
                 return False
             elif (ransom_freq[item] > magazine_freq[item]):
                 return False
-            # We are writting if-elif statement here because if item is not in magazine then it won't have magazine_freq[char] and if we write both the conditions from if and elif together using or operator, we would get an error
+            # We are writting if-elif statement here because if item is not in magazine then it won't have magazine_freq[item] and if we write both the conditions from if and elif together using or operator, we would get an error
         return True
