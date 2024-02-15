@@ -2,16 +2,16 @@ class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
         
         # Approach 1
-        pattern_list = list()
-        str_list = list()
+#         pattern_list = list()
+#         str_list = list()
         
-        for char in pattern:
-            pattern_list.append(pattern.index(char))
+#         for char in pattern:
+#             pattern_list.append(pattern.index(char))
             
-        for item in s.split():
-            str_list.append(s.split().index(item))
+#         for item in s.split():
+#             str_list.append(s.split().index(item))
             
-        return pattern_list == str_list
+#         return pattern_list == str_list
     
         # Approach 2
         connections = dict()
@@ -30,7 +30,7 @@ class Solution:
                     return False
                 
             else:
-                connections[words[i]] = p[i]
+                connections[words[i]] = pattern[i]
                 
         return True
         
