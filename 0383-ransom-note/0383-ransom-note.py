@@ -6,7 +6,6 @@ class Solution:
         for char in ransomNote:
             ransom_freq[char] = ransom_freq.get(char, 0) + 1
             
-        
         magazine_freq = {elem: 0 for elem in set(magazine)}
         
         for char in magazine:
