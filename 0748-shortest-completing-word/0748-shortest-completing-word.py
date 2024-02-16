@@ -10,19 +10,18 @@ class Solution:
             return freq
         
         license_plate_freq = str_freq(licensePlate)
-        print(license_plate_freq)
         word_length = math.inf
         result = ""
+        
         for word in words:
             word_freq = str_freq(word)
-            print(word_freq)
             
+            # Comparing word_freq and license_plate_freq
             if all((word_freq.get(key) != None and word_freq.get(key) >= value for key, value in license_plate_freq.items())):
-                print("hello {word}")
                 if len(word) < word_length:
-                    print("bye {word}")
                     word_length = len(word)
                     result = word
+                    
                     
         return result
         
