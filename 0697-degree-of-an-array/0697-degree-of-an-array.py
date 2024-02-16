@@ -6,17 +6,13 @@ class Solution:
         for elem in nums:
             freq[elem] = freq.get(elem, 0) + 1
             
-            
         degree = max(freq.values())
-        print(degree)
+
         keys_of_degree = list()
-        
-        
         for key, value in freq.items():
             if value == degree:
                 keys_of_degree.append(key)
-    
-        print(keys_of_degree)
+                
         def Dist(elem):
             arr = list()
             for i, num in enumerate(nums):
@@ -28,7 +24,6 @@ class Solution:
         shortestDistance = math.inf
         for key in keys_of_degree:
             shortestDistance = min(shortestDistance, Dist(key))
-            print(shortestDistance)
             
         return shortestDistance
             
