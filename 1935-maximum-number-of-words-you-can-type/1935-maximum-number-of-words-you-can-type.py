@@ -2,8 +2,9 @@ class Solution:
     def canBeTypedWords(self, text: str, brokenLetters: str) -> int:
         
         words = text.split()
-        bools = list()
+        true_count = 0
         for word in words:
-            bools.append(all(letter not in word for letter in brokenLetters))
+            if all(letter not in word for letter in brokenLetters):
+                true_count +=1
             
-        return sum(1 for x in bools if x)
+        return true_count
