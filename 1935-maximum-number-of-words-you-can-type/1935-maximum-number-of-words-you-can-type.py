@@ -15,7 +15,7 @@ class Solution:
         num_of_words = len(words)
         
         for word in words:
-            for char in word:
+            for char in set(word):
                 if char in brokenLetters:
                     num_of_words -= 1
                     break
