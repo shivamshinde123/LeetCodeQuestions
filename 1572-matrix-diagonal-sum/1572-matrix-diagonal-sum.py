@@ -4,9 +4,8 @@ class Solution:
         n = len(mat)
         required_sum = 0
         
-        for row in range(n):
-            for col in range(n):
-                if row == col or row == n - 1 - col:
-                    required_sum += mat[row][col]
-        
-        return required_sum
+        for i in range(n):
+            required_sum += mat[i][i]
+            required_sum += mat[i][n-1-i]
+            
+        return required_sum if n % 2 == 0 else required_sum - mat[n//2][n//2]
