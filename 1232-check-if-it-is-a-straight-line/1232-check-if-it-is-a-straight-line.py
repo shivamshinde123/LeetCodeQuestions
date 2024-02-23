@@ -20,6 +20,7 @@ class Solution:
             x = coordinate[0]
             y = coordinate[1]
             
+            ## VERY CLEVER SOLUTION: WE ARE USING MULTIPLICATION FORM OF EQUATION INSTEAD OF DIVISION FORM TO AVOID DIVISION BY ZERO ERROR
             if dx * (y - y1) != dy * (x - x1):
                 return False
             
