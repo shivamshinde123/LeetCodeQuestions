@@ -6,8 +6,6 @@ class Solution:
         for bill in bills:
             change[bill] = change.get(bill, 0) + 1
             
-            print(f"at start: {change}")
-            
             if bill == 10:
                 if change.get(5, 0) == 0:
                     return False
@@ -22,7 +20,5 @@ class Solution:
                     change[5] -= 3
                 else:
                     return False
-                
-            print(f"at end: {change}")
         
         return True
