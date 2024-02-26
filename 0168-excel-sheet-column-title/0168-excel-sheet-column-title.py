@@ -2,7 +2,7 @@ class Solution:
     def convertToTitle(self, columnNumber: int) -> str:
         
         d = dict()
-        alpha = "abcdefghijklmnopqrstuvwxyz".upper()
+        alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         
         for i in range(1,27):
             d[i] = alpha[i-1]
