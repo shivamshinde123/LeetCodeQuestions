@@ -1,19 +1,17 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         
-        digits = list()
-        
         def get_digit(number, n):
             return number // 10**n % 10
         
-        for i in range(len(str(x))-1, -1, -1):
-            digits.append(get_digit(x,i))
+        n = len(str(x))
+        reverse = 0
         
-        print(digits)
-        x_reverse = 0
-        for i in range(len(digits)):
-            x_reverse += digits[i] * 10**i
+        for i in range(n):
+            reverse += get_digit(x, i) * 10**(n-1-i)
             
-        return x == x_reverse
+        print(reverse)
+
+        return x == reverse
             
         
