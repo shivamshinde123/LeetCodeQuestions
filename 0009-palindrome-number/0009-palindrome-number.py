@@ -10,8 +10,6 @@ class Solution:
         for i in range(n):
             reverse += get_digit(x, i) * 10**(n-1-i)
             
-        print(reverse)
-
         return x == reverse
             
         
