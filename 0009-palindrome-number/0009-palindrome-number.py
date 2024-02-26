@@ -2,7 +2,7 @@ class Solution:
     def isPalindrome(self, x: int) -> bool:
         
         def get_digit(number, n):
-            return number // 10**n % 10
+            return number // (10**n) % 10
         
         n = len(str(x))
         reverse = 0
