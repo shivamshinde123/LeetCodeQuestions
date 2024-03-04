@@ -9,7 +9,10 @@ class Solution:
         
         answer = ''.join(map(str,nums))
         
-        return str(int(answer))
+        if answer[0] == "0":
+            return "0"
+        else:
+            return answer
     
 
 class CustomSmallerNumber(str):
