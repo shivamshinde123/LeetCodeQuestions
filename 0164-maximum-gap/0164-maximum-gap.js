@@ -4,6 +4,10 @@
  */
 var maximumGap = function(nums) {
     
+    if (nums.length < 2){
+        return 0
+    }
+    
     nums.sort((a,b) => {
         if (a<b){
             return -1
@@ -16,7 +20,7 @@ var maximumGap = function(nums) {
         }
     })
     
-    let max_diff = 0
+    let max_diff = Number.NEGATIVE_INFINITY
     
     for (let i = 0; i < nums.length - 1; i++){
         let local_diff = Math.abs(nums[i] - nums[i+1])
