@@ -1,13 +1,11 @@
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:
         
-        if len(nums) == 1:
-            return str(nums[0])
-        
+        nums = map(str,nums)
         
         nums = sorted(nums, key=CustomSmallerNumber)[::-1]
         
-        answer = ''.join(map(str,nums))
+        answer = ''.join(nums)
         
         if answer[0] == "0":
             return "0"
