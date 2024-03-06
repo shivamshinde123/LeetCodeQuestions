@@ -8,11 +8,12 @@ class Solution:
                 if citation >= i:
                     val += 1
                     
-            print(f"i: {i} and val: {val}")
             if val >= i:
                 return i
             
-        return 0
+        return 0 # When h_index is not valid for researcher i.e., researchers doesn't have any published work
+    
+    
         
             
                 
