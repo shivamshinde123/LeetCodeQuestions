@@ -15,7 +15,7 @@ class Solution:
 #         kth_largest = heapq.heappop(nums)
 #         return kth_largest
 
-        # Using quickselect algorithm
+        # Approach 3: Using quickselect algorithm
         def partition(nums, low, high):
             pivot = nums[low]
             i, j = low + 1, high
