@@ -29,7 +29,13 @@ var countNegatives = function(grid) {
             }
         }
         
-        return arr.length - left_index
+        if (left_index <= n - 1){
+            return arr.length - left_index
+        }
+        else{
+            return 0
+        }
+        
     }
     
     let answer = 0
