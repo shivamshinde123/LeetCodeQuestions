@@ -1,6 +1,10 @@
 class Solution:
     def pivotInteger(self, n: int) -> int:
         
+        # sum(1 to x, both included) = sum(x to n, both included)
+        # This implies that x**2 = n * (n + 1) / 2
+        # So basically we want to find the square root of n * (n + 1) / 2
+        
         sum = int(n * (n + 1) / 2)
         
         left, right = 1, sum
