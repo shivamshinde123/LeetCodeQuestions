@@ -21,15 +21,9 @@ class Solution:
         
         for i in range(2, n): # Selecting the c value
             
-            # if nums[i] == 0:
-            #     continue
-            
             left, right = 0, i - 1 # Initial a and b values
             
             while left < right:
-                
-                # if nums[left] == 0 or nums[right] == 0:
-                #     continue
                 
                 if nums[left] + nums[right] > nums[i]: 
                     # If current left and right values satify triangle property then all the left values less       
