@@ -1,42 +1,46 @@
-class Solution:
-    def triangleNumber(self, nums: List[int]) -> int:
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var triangleNumber = function(nums) {
+    let n = nums.length
+    let count = 0
+    
+    if (n < 3){
+        return 0
+    }
+    
+    nums.sort((a,b)=>{
+        if (a < b){
+            return -1
+        }
         
-        """
-        Triangle property: a + b > c (a, b, c --> sides of a triangle)
+        else if (a > b){
+            return 1
+        }
         
-        So, in the solution, we first fix the value of 'c' and then find a,b values such that they satify the 
-        triangle property.
-        
-        """
-        
-        count = 0
-        n = len(nums)
-        
-        # If the array has less than three elements, then array elements cannot give a single triangle sides
-        if n < 3:
+        else{
             return 0
+        }
+    })
+    
+    for (let i = 0; i < n; i++){
         
-        # Sorting the array before using binary search algorithm
-        nums.sort()
+        let left = 0
+        let right = i - 1
         
-        for i in range(2, n): # Selecting the c value
+        while (left < right){
             
-            left, right = 0, i - 1 # Initial a and b values
-            
-            while left < right:
-                
-                if nums[left] + nums[right] > nums[i]: 
-                    # If current left and right values satify triangle property then all the left values less       
-                    # current right will also satisfy the property. So we will get total of (right - left) number
-                    # of eligible triangles
-                    count += (right - left) 
-                    
-                    # Now that we have found out all the values with current right values, let's check smaller
-                    # right values
-                    right -= 1
-                else:
-                    # Since addition of values at left and right is less than the value at index i, we
-                    # will increase the addition of left and right by increasing the value of left
-                    left += 1
-                    
-        return count
+            if (nums[left] + nums[right] > nums[i]){
+                count += (right - left)
+                right -= 1
+            }
+            else{
+                left += 1
+            }
+        }
+    }
+    
+    return count
+    
+};
