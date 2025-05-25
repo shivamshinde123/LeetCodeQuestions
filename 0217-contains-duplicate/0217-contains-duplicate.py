@@ -13,10 +13,18 @@ class Solution:
         # return False
 
         # Approach 3
-        seen = set()
-        for num in nums:
-            if num in seen:
-                return True
-            seen.add(num)
+        # seen = set()
+        # for num in nums:
+        #     if num in seen:
+        #         return True
+        #     seen.add(num)
         
+        # return False
+
+        # Approach 4
+        nums.sort()
+        for i in range(1, len(nums)):
+            if nums[i] == nums[i-1]:
+                return True
+            
         return False
