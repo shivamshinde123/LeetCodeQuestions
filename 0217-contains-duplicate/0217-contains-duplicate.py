@@ -4,13 +4,13 @@ class Solution:
         # return len(nums) > len(set(nums))
 
         # Approach 2
-        # count = Counter(nums)
+        count = Counter(nums)
 
-        # for num in count.values():
-        #     if num > 1:
-        #         return True
+        for num in count.values():
+            if num > 1:
+                return True
 
-        # return False
+        return False
 
         # Approach 3
         # seen = set()
@@ -22,9 +22,9 @@ class Solution:
         # return False
 
         # Approach 4
-        nums.sort()
-        for i in range(1, len(nums)):
-            if nums[i] == nums[i-1]:
-                return True
+        # nums.sort()
+        # for i in range(1, len(nums)):
+        #     if nums[i] == nums[i-1]:
+        #         return True
             
-        return False
+        # return False
