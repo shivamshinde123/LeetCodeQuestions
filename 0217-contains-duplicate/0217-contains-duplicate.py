@@ -3,6 +3,7 @@ class Solution:
         # Approach 1
         # return len(nums) > len(set(nums))
 
+        # Approach 2
         count = Counter(nums)
 
         for num in count.values():
