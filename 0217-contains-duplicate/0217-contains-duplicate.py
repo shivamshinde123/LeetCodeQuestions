@@ -4,10 +4,19 @@ class Solution:
         # return len(nums) > len(set(nums))
 
         # Approach 2
-        count = Counter(nums)
+        # count = Counter(nums)
 
-        for num in count.values():
-            if num > 1:
+        # for num in count.values():
+        #     if num > 1:
+        #         return True
+
+        # return False
+
+        # Approach 3
+        seen = set()
+        for num in nums:
+            if num in seen:
                 return True
-
+            seen.add(num)
+        
         return False
