@@ -11,6 +11,7 @@
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
+| [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [2058-concatenation-of-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2058-concatenation-of-array) |
 ## Simulation
 |  |
