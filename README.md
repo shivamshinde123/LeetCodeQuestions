@@ -5,6 +5,7 @@
 ## String
 |  |
 | ------- |
+| [0058-length-of-last-word](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0058-length-of-last-word) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0392-is-subsequence) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
