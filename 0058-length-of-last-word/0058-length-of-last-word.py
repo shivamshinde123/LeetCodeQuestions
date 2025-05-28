@@ -1,11 +1,19 @@
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
+        n = len(s)
+        # creating two variables- one for tracking index and one for tracking length
+        i = n - 1
+        length = 0
+
+        while s[i] == " ":
+            i -= 1
+
+        while s[i] != " " and i >= 0:
+            i -= 1
+            length += 1
         
-        # Approach 1
-        # return len(s.split()[-1])
-        
-        # Approach 2
-        words = s.split()
-        for i in range(len(words)-1,-1,-1):
-            if words[i] != " ":
-                return len(words[i])
+        return length
+
+
+            
+
