@@ -47,4 +47,8 @@
 |  |
 | ------- |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
