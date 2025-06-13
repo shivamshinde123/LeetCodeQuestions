@@ -5,6 +5,7 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0014-longest-common-prefix) |
 | [0058-length-of-last-word](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0058-length-of-last-word) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0392-is-subsequence) |
@@ -59,4 +60,8 @@
 | [1827-invalid-tweets](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1908-recyclable-and-low-fat-products) |
 | [2024-calculate-special-bonus](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2024-calculate-special-bonus) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
