@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0014-longest-common-prefix) |
+| [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0058-length-of-last-word) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0392-is-subsequence) |
@@ -17,6 +18,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1524-string-matching-in-an-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1524-string-matching-in-an-array) |
@@ -30,11 +32,13 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 ## Two Pointers
