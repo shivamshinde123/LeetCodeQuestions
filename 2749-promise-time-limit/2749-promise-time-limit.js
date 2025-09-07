@@ -6,30 +6,15 @@
 var timeLimit = function (fn, t) {
 
     return async function (...args) {
-        let timeoutId;
+        const promise1 = fn(...args)
 
-        // Timeout promise
-        const timeoutPromise = new Promise((_, reject) => {
-            timeoutId = setTimeout(() => {
-                reject("Time Limit Exceeded");
-            }, t);
-        });
+        const promise2 = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                reject("Time Limit Exceeded")
+            }, t)
+        })
 
-        // Function promise (fn may be async or sync)
-        const functionPromise = (async () => {
-            try {
-                const result = await fn(...args);
-                clearTimeout(timeoutId); // cleanup
-                return result;
-            } catch (err) {
-                clearTimeout(timeoutId); // cleanup
-                throw err;
-            }
-        })();
-
-        // Race between fn execution and timeout
-        return Promise.race([timeoutPromise, functionPromise]);
-
+        return Promise.race([promise1, promise2])
     }
 };
 
