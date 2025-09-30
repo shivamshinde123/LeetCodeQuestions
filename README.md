@@ -20,6 +20,7 @@
 | [0001-two-sum](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
+| [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1524-string-matching-in-an-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1524-string-matching-in-an-array) |
@@ -47,6 +48,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 | [0392-is-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0392-is-subsequence) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Dynamic Programming
@@ -77,4 +79,8 @@
 |  |
 | ------- |
 | [1524-string-matching-in-an-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1524-string-matching-in-an-array) |
+## Math
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
