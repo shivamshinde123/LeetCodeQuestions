@@ -13,8 +13,7 @@ class Solution:
         # Shift the first n-k elements to the right by k positions
         # Loop backwards so that we don't overwrite elements before shifting
         for i in range(n - k - 1, -1, -1):  
-            if n >= k:  
-                nums[i + k] = nums[i]   # Place each element i into its shifted position
+            nums[i + k] = nums[i]   # Place each element i into its shifted position
 
         # Copy the saved last k elements into the first k positions
         # Final composition of rotated array
