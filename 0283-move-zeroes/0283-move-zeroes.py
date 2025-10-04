@@ -3,12 +3,24 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        
-        i = 0
-        for j in range(len(nums)):
-            if nums[j] != 0:
+
+        n = len(nums)
+        j = -1
+
+        for i in range(n):
+            if nums[i] == 0:
+                j = i
+                break
+
+        if j == -1:
+            return nums
+
+        for i in range(j+1, n):
+            if nums[i] != 0:
                 nums[i], nums[j] = nums[j], nums[i]
-                i +=1
-                
-        
+                j += 1
+
+
+        return nums
+
         
