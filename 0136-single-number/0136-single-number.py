@@ -1,14 +1,14 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
+        
+        counts = dict()
 
-        # Approach 1
-        # for i in range(len(nums)):
-        #     num = nums[i]
-        #     nums.remove(num)
-        #     if num not in nums:
-        #         return num
-        #     nums.insert(i, num)
+        for i in range(len(nums)):
+            if nums[i] not in counts:
+                counts[nums[i]] = 1
+            else:
+                counts[nums[i]] += 1
 
-        # Approach 2
-        unique_nums = list(set(nums))
-        return 2*sum(unique_nums) - sum(nums)
+        for key in counts.keys():
+            if counts[key] != 2:
+                return key
