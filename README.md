@@ -20,6 +20,7 @@
 | [0001-two-sum](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0169-majority-element) |
@@ -67,6 +68,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0053-maximum-subarray) |
 | [0392-is-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0392-is-subsequence) |
 ## Greedy
 |  |
@@ -109,6 +111,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0169-majority-element) |
 ## Counting
 |  |
