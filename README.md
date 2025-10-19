@@ -20,6 +20,7 @@
 | [0001-two-sum](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
@@ -47,6 +48,7 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0268-missing-number) |
@@ -54,6 +56,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0392-is-subsequence) |
