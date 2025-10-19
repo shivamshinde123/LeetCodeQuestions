@@ -3,7 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # BUBBLE SORT
+        # BUBBLE SORT - O(N^2)
         # n = len(nums)
         # k = n - 1
         # while k >= 0:
@@ -14,7 +14,7 @@ class Solution:
         
         # return nums
 
-        # QUICK SORT
+        # QUICK SORT - O(NLogN)
         def partition(arr, low, high):
             pivot = arr[low]
             i = low
