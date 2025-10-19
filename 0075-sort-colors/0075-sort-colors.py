@@ -15,31 +15,37 @@ class Solution:
         # return nums
 
         # QUICK SORT - O(NLogN)
-        def partition(arr, low, high):
-            pivot = arr[low]
-            i = low
-            j = high
+        # def partition(arr, low, high):
+        #     pivot = arr[low]
+        #     i = low
+        #     j = high
 
-            while (i < j):
-                while (arr[i] <= pivot and i <= high-1):
-                    i +=1
-                while (arr[j] > pivot and j >= low):
-                    j -= 1
+        #     while (i < j):
+        #         while (arr[i] <= pivot and i <= high-1):
+        #             i +=1
+        #         while (arr[j] > pivot and j >= low):
+        #             j -= 1
 
-                if (i < j):
-                    arr[i], arr[j] = arr[j], arr[i]
+        #         if (i < j):
+        #             arr[i], arr[j] = arr[j], arr[i]
             
-            arr[low], arr[j] = arr[j], arr[low]
+        #     arr[low], arr[j] = arr[j], arr[low]
 
-            return j
+        #     return j
 
-        def quicksort(arr, low, high):
-            if (low < high):
-                pIndex = partition(arr, low, high)
-                quicksort(arr, low, pIndex-1)
-                quicksort(arr, pIndex+1, high)
+        # def quicksort(arr, low, high):
+        #     if (low < high):
+        #         pIndex = partition(arr, low, high)
+        #         quicksort(arr, low, pIndex-1)
+        #         quicksort(arr, pIndex+1, high)
 
-        n = len(nums)
-        quicksort(nums, 0, n-1)
+        # n = len(nums)
+        # quicksort(nums, 0, n-1)
 
+        # Approach 3
+        a = nums.count(0)
+        b = nums.count(1)
+        c = nums.count(2)
+
+        nums[:] =[0]*a + [1]*b + [2]*c
         
