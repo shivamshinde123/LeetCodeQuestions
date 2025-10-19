@@ -43,9 +43,33 @@ class Solution:
         # quicksort(nums, 0, n-1)
 
         # Approach 3
-        a = nums.count(0)
-        b = nums.count(1)
-        c = nums.count(2)
+        # a = nums.count(0)
+        # b = nums.count(1)
+        # c = nums.count(2)
 
-        nums[:] =[0]*a + [1]*b + [2]*c
-        
+        # nums[:] =[0]*a + [1]*b + [2]*c
+
+        # Approach 4
+        n = len(nums)
+        low, mid = 0, 0
+        high = n - 1
+
+        while mid <= high:
+
+            if nums[mid] == 0:
+                nums[low], nums[mid] = nums[mid], nums[low]
+                low += 1
+                mid += 1
+
+            elif nums[mid] == 1:
+                mid += 1
+
+            elif nums[mid] == 2:
+                nums[mid], nums[high] = nums[high], nums[mid]
+                high -= 1
+
+
+    
+                
+
+    
