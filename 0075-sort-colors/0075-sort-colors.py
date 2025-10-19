@@ -3,16 +3,14 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        l, i, r = 0, 0, len(nums) - 1
+        n = len(nums)
+        k = n - 1
+        while k >= 0:
+            for i in range(k):
+                if nums[i] > nums[i+1]:
+                    nums[i], nums[i+1] = nums[i+1], nums[i]
+            k -= 1
         
-        while i <= r:
-            if nums[i] == 0:
-                nums[i], nums[l] = nums[l], nums[i]
-                l += 1
-                i +=1
-            elif nums[i] == 2:
-                nums[i], nums[r] = nums[r], nums[i]
-                r -= 1
-            else:
-                i += 1
-                
+        return nums
+
+        
