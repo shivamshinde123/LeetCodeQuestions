@@ -11,6 +11,7 @@
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0392-is-subsequence) |
 | [1524-string-matching-in-an-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1524-string-matching-in-an-array) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2727-number-of-senior-citizens](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2727-number-of-senior-citizens) |
 | [3379-score-of-a-string](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/3379-score-of-a-string) |
@@ -33,11 +34,13 @@
 | [1524-string-matching-in-an-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1524-string-matching-in-an-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2058-concatenation-of-array) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2727-number-of-senior-citizens](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2727-number-of-senior-citizens) |
 ## Simulation
 |  |
 | ------- |
 | [2058-concatenation-of-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2058-concatenation-of-array) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 ## Hash Table
 |  |
 | ------- |
