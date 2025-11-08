@@ -15,13 +15,23 @@ class Solution:
         # return max_sum
 
         # Approach 2 - Kadane Algorithm
-        max_sum = curr_sum = nums[0]
+        max = - float('inf')
+        sum = 0
 
-        for num in nums[1:]:
-            curr_sum = max(num, curr_sum+num)
-            max_sum = max(curr_sum, max_sum)
+        for i in range(len(nums)):
 
-        return max_sum
+            sum += nums[i]
+
+            if sum > max:
+                max = sum
+
+            if sum < 0:
+                sum = 0
+
+            
+        # if max < 0: max = 0
+
+        return max
 
         
 
