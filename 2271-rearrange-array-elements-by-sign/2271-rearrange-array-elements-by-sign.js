@@ -4,24 +4,45 @@
  */
 var rearrangeArray = function(nums) {
     
-    let pos = new Array()
-    let neg = new Array()
+    // Brute force approach
+    // let pos = new Array()
+    // let neg = new Array()
 
-    for (let i = 0; i < nums.length; i++){
+    // for (let i = 0; i < nums.length; i++){
+    //     if (nums[i] > 0){
+    //         pos.push(nums[i])
+    //     }
+    //     else{
+    //         neg.push(nums[i])
+    //     }
+    // }
+
+    // let ans = new Array()
+
+    // for (let i = 0; i < pos.length; i++){
+    //     ans.push(pos[i])
+    //     ans.push(neg[i])
+    // }
+
+    // return ans
+
+    // Better approach
+    let n = nums.length 
+    ans = new Array(n)
+    let pos_index = 0
+    let neg_index = 1
+
+    for (let i = 0; i < n; i++){
         if (nums[i] > 0){
-            pos.push(nums[i])
+            ans[pos_index] = nums[i]
+            pos_index += 2
         }
-        else{
-            neg.push(nums[i])
+        else {
+            ans[neg_index] = nums[i]
+            neg_index += 2
         }
-    }
-
-    let ans = new Array()
-
-    for (let i = 0; i < pos.length; i++){
-        ans.push(pos[i])
-        ans.push(neg[i])
     }
 
     return ans
+
 };
