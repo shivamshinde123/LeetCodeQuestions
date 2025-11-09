@@ -45,6 +45,7 @@
 | [2058-concatenation-of-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2058-concatenation-of-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2288-count-operations-to-obtain-zero](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2288-count-operations-to-obtain-zero) |
 ## Hash Table
 |  |
 | ------- |
@@ -109,6 +110,7 @@
 | ------- |
 | [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0268-missing-number) |
+| [2288-count-operations-to-obtain-zero](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2288-count-operations-to-obtain-zero) |
 ## Binary Search
 |  |
 | ------- |
