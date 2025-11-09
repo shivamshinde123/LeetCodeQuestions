@@ -36,12 +36,14 @@
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2058-concatenation-of-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2727-number-of-senior-citizens](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2727-number-of-senior-citizens) |
 ## Simulation
 |  |
 | ------- |
 | [2058-concatenation-of-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2058-concatenation-of-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
@@ -68,6 +70,7 @@
 | [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0392-is-subsequence) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Dynamic Programming
 |  |
