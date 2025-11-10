@@ -21,6 +21,7 @@
 | [0001-two-sum](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0031-next-permutation) |
+| [0048-rotate-image](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0073-set-matrix-zeroes) |
@@ -110,6 +111,7 @@
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0268-missing-number) |
 | [2288-count-operations-to-obtain-zero](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/2288-count-operations-to-obtain-zero) |
@@ -134,5 +136,6 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
