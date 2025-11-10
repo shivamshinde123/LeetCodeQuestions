@@ -3,6 +3,9 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
+
+        # Brute force approach: 
+        # - Create a new 2D array and then do the rest of the opeations
         
         # Optimal approach: first column of original array = reverse of transpose first row of rotated array
 
