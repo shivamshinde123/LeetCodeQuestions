@@ -3,6 +3,7 @@ class Solution:
         
         # Approach 1 - we can have maximum of 2 such elements
         n = len(nums)
+        min = n // 3
         freq = dict()
         result = list()
 
@@ -10,7 +11,7 @@ class Solution:
             if nums[i] not in freq:
                 freq[nums[i]] = 1
             
-            else:
+            else: 
                 freq[nums[i]] += 1
 
         print(freq)
