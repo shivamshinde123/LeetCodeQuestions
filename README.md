@@ -36,6 +36,7 @@
 | [0268-missing-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0560-subarray-sum-equals-k) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1524-string-matching-in-an-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1524-string-matching-in-an-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -62,6 +63,7 @@
 | [0229-majority-element-ii](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0268-missing-number) |
+| [0560-subarray-sum-equals-k](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0560-subarray-sum-equals-k) |
 ## Sorting
 |  |
 | ------- |
@@ -145,4 +147,8 @@
 | [0048-rotate-image](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0073-set-matrix-zeroes) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
