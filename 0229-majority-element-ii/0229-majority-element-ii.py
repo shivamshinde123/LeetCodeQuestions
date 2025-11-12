@@ -44,7 +44,7 @@ class Solution:
 
         # return result
 
-        # Approach 2: Extended Moore's voting algorithm
+        # Approach 3: Extended Moore's voting algorithm
         n = len(nums)
         cnt1, cnt2, ele1, ele2 = 0, 0, None, None
 
