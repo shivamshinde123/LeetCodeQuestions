@@ -1,12 +1,21 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
-        req_freq = math.floor(len(nums)/3)
         
-        freq = Counter(nums)
-        answer = list()
-        
-        for key, value in freq.items():
-            if value > req_freq:
-                answer.append(key)
-                
-        return answer
+        n = len(nums)
+        freq = dict()
+        result = list()
+
+        for i in range(n):
+            if nums[i] not in freq:
+                freq[nums[i]] = 1
+            
+            else:
+                freq[nums[i]] += 1
+
+        print(freq)
+
+        for item, value in freq.items():
+            if value > n // 3:
+                result.append(item)
+
+        return result
