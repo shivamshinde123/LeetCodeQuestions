@@ -32,6 +32,7 @@
 | [0169-majority-element](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0485-max-consecutive-ones) |
@@ -58,6 +59,7 @@
 | [0073-set-matrix-zeroes](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0268-missing-number) |
 ## Sorting
@@ -67,6 +69,7 @@
 | [0075-sort-colors](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0268-missing-number) |
 ## Two Pointers
@@ -135,6 +138,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/shivamshinde123/LeetCodeQuestions/tree/master/0229-majority-element-ii) |
 ## Matrix
 |  |
 | ------- |
